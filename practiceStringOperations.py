@@ -14,3 +14,20 @@ print(LahoreInfo[0:6:1])
 print(LahoreInfo[14:22:1])
 
 print(len(LahoreInfo))
+
+#data types - lists
+
+Booklist = [32134 , "The Alchemist", 45678 , 34.5432 , "William Richards"]
+print(Booklist)
+print(type(Booklist))
+print(Booklist[1:12:2])
+print(len(Booklist))
+
+for x in Booklist:
+    print(x)
+
+Booklist.append(567878)
+print(Booklist)
+
+Booklist.insert(2, "i am inserting a sentence")
+print (Booklist)
